@@ -14,7 +14,7 @@ const MovieDetailsPage = ({ allMovies, onDownload }) => {
         return movieSlug === slug || movieSlug === cleanSlug;
     });
 
-    const seoTitle = movie ? `${movie.title} with Sinhala Subtitles` : 'Details';
+    const seoTitle = movie ? `${movie.title} with Sinhala Subtitles | ${movie.title} සිංහල උපසිරැසි සමඟ` : 'Details';
     const seoDescription = movie
         ? `Download ${movie.title} (${movie.year}) full movie with Sinhala Subtitles. Get ${movie.title} Sinhala subbed movie in high quality for free on CMoviez.`
         : 'Loading movie details...';

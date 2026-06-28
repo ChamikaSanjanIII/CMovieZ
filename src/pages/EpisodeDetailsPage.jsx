@@ -18,7 +18,7 @@ const EpisodeDetailsPage = ({ allMovies, onDownload }) => {
         return currentEpNum === episode || parseInt(currentEpNum) === parseInt(episode);
     });
 
-    const seoTitle = series ? `${series.title} Season ${season} Episode ${episode} with Sinhala Subtitles` : 'Episode Details';
+    const seoTitle = series ? `${series.title} Season ${season} Episode ${episode} with Sinhala Subtitles | ${series.title} S${season} E${episode} සිංහල උපසිරැසි සමඟ` : 'Episode Details';
     const seoDescription = series
         ? `Download ${series.title} Season ${season} Episode ${episode} with Sinhala Subtitles. Get the latest episodes for ${series.title} with Sinhala subs for free on CMoviez.`
         : 'Loading episode details...';
