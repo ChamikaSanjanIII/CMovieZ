@@ -1,0 +1,10 @@
+# CMovieZ
+
+> Download high-quality movies, TV shows, and anime with Sinhala Subtitles.
+
+## Links
+
+- [Home](https://cmoviez.com/)
+- [Movies](https://cmoviez.com/movies)
+- [TV Shows](https://cmoviez.com/tv-shows)
+- [Anime](https://cmoviez.com/anime)
