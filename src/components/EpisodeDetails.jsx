@@ -194,6 +194,7 @@ const EpisodeDetails = ({ series, episode, seasonNum, episodeNum, onDownload }) 
                             downloadUrl: episode.downloadUrl,
                         }}
                         download_links={episode.download_links}
+                        subtitles={episode.subtitles || series.subtitles}
                         onDownload={onDownload}
                     />
                 </div>

@@ -282,6 +282,7 @@ const MovieDetails = ({ movie, onDownload }) => {
                                 downloadUrl: movie.downloadUrl,
                             }}
                             download_links={movie.download_links}
+                            subtitles={movie.subtitles}
                             onDownload={onDownload}
                         />
                     </div>
